@@ -1,3 +1,8 @@
+
+
+
+
+
    
 
 
@@ -10,11 +15,11 @@
 
         <div class="home_contact_box  animate-from-bottom">
             <h3>Contact Us</h3>
-            <p>Landline<br>
-                <a href="tel:08042194372">080 – 42194372</a>
+            <p>
+                <a href="tel:08042194372"> <i class="fa-solid fa-tty"></i> 080 – 42194372</a>
             </p>
 
-            <p>Office<br>
+            <p>
                 <a href="tel:+917676403112">
                     <i class="fa-solid fa-phone-volume"></i> +91 - 767640 3112
                 </a>
@@ -26,14 +31,14 @@
             <h3>Get in touch</h3>
             <a href="https://www.stjohnshighschool.in" target="_blank"><i class="fa-solid fa-globe"></i>
                 www.stjohnshighschool.in</a>
-            <a href="mailto:stjohnshighschool1998@gmail.com"><i class="fa-solid fa-envelope"></i>
-                stjohnshighschool1998@gmail.com</a>
+            <a href="mailto:stjohnshighschool99@gmail.com"><i class="fa-solid fa-envelope"></i>
+                stjohnshighschool99@gmail.com</a>
         </div>
 
         <div class="home_contact_box  animate-from-bottom">
             <h3>Visit Us</h3>
-            <p><i class="fa-solid fa-location-dot"></i> No. 12/13, 7th cross, 5th main,<br>Malleshpalya, New
-                Thippasandra Post,<br>Bengaluru – 560075.</p>
+            <p><i class="fa-solid fa-location-dot"></i> No. 121/3, 7th cross, 5th main,5<br>Malleshpalya, New
+                Thippasandra Post,<br>Bengaluru , Karnataka – 560075.</p>
         </div>
 
     </section>

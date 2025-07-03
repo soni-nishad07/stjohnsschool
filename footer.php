@@ -98,6 +98,8 @@
 
 
     <div class="copywrite">
-        <p>&copy; 2025 St. John's High School. All rights reserved.</p>
+        <p>&copy; 2025 St. John's High School. All rights reserved.
+                       Designed by 
+                        <span><a style="text-decoration: none; color: #fff; font-weight: 500;" href="https://www.rpinfocare.com/">RP INFOCARE</a></span></p>
     </div>
 

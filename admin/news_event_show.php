@@ -89,6 +89,9 @@
 
 
 
+                
+
+
 
 <?php
 include('../connect.php');
@@ -103,6 +106,18 @@ $result = mysqli_query($conn, $query);
         <div class="d-flex align-items-center">
             <h5 class="mb-0">News / Event Details</h5>
         </div>
+
+
+
+        <?php if (isset($_GET['msg']) && $_GET['msg'] === 'deleted'): ?>
+    <div class="alert alert-success alert-dismissible fade show mt-4" role="alert">
+        <strong>Success!</strong> News deleted successfully.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<?php endif; ?>
+
+
+
         <div class="table-responsive mt-3">
             <table class="table align-middle text-center">
                 <thead class="table-secondary">
@@ -140,7 +155,8 @@ $result = mysqli_query($conn, $query);
                         </td>
                         <td>
                             <a href="news_edit.php?id=<?= $row['id'] ?>" class="btn btn-sm btn-primary">Edit</a>
-                            <a href="news_delete.php?id=<?= $row['id'] ?>" class="btn btn-sm btn-danger" onclick="return confirm('Delete this entry?')">Delete</a>
+                             <a href="news_delete.php?id=<?= $row['id'] ?>" class="btn btn-sm btn-danger" onclick="return confirm('Delete this entry?')">Delete</a>
+
                         </td>
                     </tr>
                 <?php endwhile; ?>
